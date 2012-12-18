@@ -14,12 +14,13 @@ Simply and easily adjust the size and add effects to your photos utilizing the J
 
 **Please Note: This plugin is considered an alpha release and should be used with caution. We'll be actively updating it when we can, so please report any bugs [here](http://simplephotonphotos.com) or in the support forums.**
 
+http://simplephotonphotos.com
+
 With the release of the Photon API in Jetpack v2.0, we noticed that there wasn't a simple way to use the GET query arguments supplied in the [API documentation](http://developer.wordpress.com/docs/photon/api/). We set out to change this.
 
 Introducing Simple Photon Photos, the simplest and easiest way to add JetPack Photon API effects to photos on your WordPress website. This plugin adds a control panel to the Add Media Panel when inserting an image into a post. It utilizes jQuery UI Slider Widgets to give you control over the effects you'd like to add to your images.
 
 This plugin requires [Jetpack by WordPress.com](http://jetpack.me).
-
 
 **Known Bugs/Issues**
 
@@ -34,6 +35,14 @@ This plugin requires [Jetpack by WordPress.com](http://jetpack.me).
 == Frequently asked questions ==
 
 = I cant get this plugin to activate. Can you please help? =
+
+We don't want your website to violate the [WordPress TOS](http://en.wordpress.com/tos). Here's a rundown of exactly what this plugin checks for during activation and why you may be having trouble activating it.
+
+1. Simple Photon Photos first checks to see if Jetpack WordPress.com is installed. If it is not found, activation will fail.
+2. After finding Jetpack, Simple Photon Photos checks to see if it is activated. If Jetpack is not activated, activation will fail.
+3. If Jetpack is activated, Simple Photon Photos will check to see if you have >= 2.0 (Photon API was introduced in v2.0). If your version of Jetpack is less than 2.0, activation will fail.
+4. Once we've verified that you have at least Jetpack v2.0, Simple Photon Photos will check to see if the Photon API Module is active. If it is not, activation will fail.
+5. If all of the above pass, activation will succeed. Enjoy.
 
 = Can I preview my photos before inserting them into a post? =
 
