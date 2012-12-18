@@ -8,9 +8,11 @@ Stable tag: 0.5
 License: GPLv2+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Simply and easily adjust the size and add effects to your photos utilizing the Jetpack Photon API. This plugin requires [Jetpack by WordPress.com](http://jetpack.me).
+Simply and easily adjust the size and add effects to your photos utilizing the Jetpack Photon API. This plugin requires Jetpack by WordPress.com.
 
 == Description ==
+
+**Please Note: This plugin is considered an alpha release and should be used with caution. We'll be actively updating it when we can, so please report any bugs [here](http://simplephotonphotos.com) or in the support forums.**
 
 With the release of the Photon API in Jetpack v2.0, we noticed that there wasn't a simple way to use the GET query arguments supplied in the [API documentation](http://developer.wordpress.com/docs/photon/api/). We set out to change this.
 
@@ -18,9 +20,9 @@ Introducing Simple Photon Photos, the simplest and easiest way to add JetPack Ph
 
 This plugin requires [Jetpack by WordPress.com](http://jetpack.me).
 
-**Please Note: This plugin is considered an alpha release and should be used with caution. We'll be actively updating it when we can, so please report any bugs [here](http://simplephotonphotos.com) or in the support forums.**
 
 **Known Bugs/Issues**
+
 1. When multiple images are selected (WordPress 3.5), Simple Photon Photos options are still displayed but are displayed as default values even though values may have already been changed.
 
 == Installation ==
