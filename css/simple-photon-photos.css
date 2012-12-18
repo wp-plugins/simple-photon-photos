@@ -1,0 +1,130 @@
+/* Simple Photon Photos */
+
+/* Introduction Message */
+.spp-activated {
+    margin: 35px 16px 5px 0;
+    padding: 0 5px;
+    background: #1e8Cbe;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#1e8Cbe),to(#0074a2));
+	background-image: -webkit-linear-gradient(top,#1e8Cbe,#0074a2);
+	background-image: -moz-linear-gradient(top,#1e8Cbe,#0074a2);
+	background-image: -o-linear-gradient(top,#1e8Cbe,#0074a2);  
+    background-image: linear-gradient(to bottom,#1e8Cbe,#0074a2);
+    color: #fff;
+    border: 1px solid #101cce;
+    border-radius: 10px;
+}
+
+.spp-activated a {
+	color: #fff;
+    font-weight: bold;
+}
+
+.spp-intro-photo {
+    width: 905px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* Media Panel */
+.compat-item tr.spp-tr {
+	display: none;
+}
+
+.spp-preview-message {
+	padding-bottom: 10px;
+	color: #999;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 12px;
+}
+	.spp-preview-message strong{
+		color: #777;
+	}
+
+.spp-full-width {
+	width: 100%;
+	margin: 5px 0 10px;
+	text-align: left;
+}
+
+.attachment-display-settings {
+	margin: 10px 0 0;
+	border-top: 1px solid #e5e5e5;
+	box-shadow: 0 -1px 0 #fff;
+}
+
+	.attachment-display-settings h3 {
+		margin: 16px 0 8px;
+	}
+
+.spp-label {
+	text-align: left;
+	float: left;
+}
+
+	.spp-label .alignleft {
+		text-align: left;
+	}
+
+#spp-label-th {
+	width: 100%;
+	margin: -5px  0 0;
+	text-align: left;
+}
+
+	#spp-label {
+		padding: 15px 0 0;
+		font-size: 14px;
+		border-top: 1px solid #e5e5e5;
+		box-shadow: 0 -1px 0 #fff;
+	}
+
+
+/* Input boxes */
+.spp-width-input, .spp-height-input, .spp-fit-width-input, .spp-fit-height-input, .spp-brightness-input, .spp-contrast-input, .spp-colorize-input, .spp-smooth-input, .spp-zoom-input {
+	width: 48px;
+}
+
+/* Checkboxes */
+.checkbox {
+	margin: 10px 2px 0 0 !important;
+}
+
+/* Sliders */
+.spp-slider {
+	width: 90%;
+	margin: 6px auto 10px;
+}
+
+	.ui-slider-handle {
+		border-color: #aaa !important;
+	}
+
+	/* Red */
+	.spp-colorize-red-slider .ui-slider-range {
+		background: #ef2929;
+	}
+
+	.spp-colorize-red-slider .ui-slider-handle {
+		border-color: #ef2929 !important;
+	}
+
+	/* Green */
+	.spp-colorize-green-slider .ui-slider-range {
+		background: #8ae234;
+	}
+
+	.spp-colorize-green-slider .ui-slider-handle {
+		border-color: #8ae234 !important;
+	}
+
+	/* blue */
+	.spp-colorize-blue-slider .ui-slider-range {
+		background: #729fcf;
+	}
+
+	.spp-colorize-blue-slider .ui-slider-handle {
+		border-color: #729fcf !important;
+	}
